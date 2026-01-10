@@ -3,8 +3,8 @@ package com.kevin.springbootfirst;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Laptop {
+public class Laptop implements Computer {
     public void compile() {
-        System.out.println("Compiling...");
+        System.out.println("Compiling using Laptop");
     }
 }
